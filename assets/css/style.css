@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background: #22212C;
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+h3,
+p {
+    color:#837E9F;
+}
+.grid {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    grid-template-areas: 'menu main';
+
+}
+
+.grid div:nth-child(1) {
+    grid-area: menu;
+}
+
+.grid div:nth-child(2) {
+    grid-area: main;
+}
+
+
+
+.header {
+    background: #302F3D;
+    border-radius: 10px;
+    margin: 40px 0 10px 40px;
+    width: 348px;
+   padding: 30px;
+}
+
+#name {
+    height: 292px;
+}
+
+#name .picture {
+    display: flex;
+    justify-content: center;
+   
+}
+
+#name img {
+
+    border-radius: 90px;
+    border: 2px solid #00FF00;
+    padding: 1px;
+    height: 130px;
+}
+
+#name span {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+#name span p {
+    margin-top: 2px;
+}
+
+#informacoes {
+    height: 228px;
+    background: #302F3D;
+}
+
+.flex a{
+    display: flex;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.flex a p {
+    margin-left: 20px;
+}
+
+#tecnologias {
+    height: 150px;
+}
+
+.tecnologiasFlex {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.tecnologiasFlex .tecnologia {
+     font-size: 12px;
+     text-transform: uppercase;
+     font-weight: 700;
+    border-radius: 10px;
+    background: #CB92B1;
+    width: 150px;
+    height: 22px;
+    margin: 10px;
+    flex: 1 0 20%;
+}
+
+.tecnologia p {
+    color: black;
+    margin-top: 3px;
+}
+
+.cabecalho {
+    margin: 40px 0 10px 40px;
+    width: 900px;
+    height: 86px;
+    background: #302F3D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px; 
+    padding: 0 10px;
+    
+}
+
+.cabecalho a {
+    text-decoration: none;
+    color: #837E9F
+}
+
+.my-onix {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.my-onixs {
+    border-radius: 10px;
+    padding: 20px;
+    background: #302F3D;
+     width: 440px;
+     height: 186px;
+     margin-left: 20px;
+}
+
+.title {
+    display: flex;
+    margin-top: 10px;
+}
+
+.title h4 {
+    margin-left: 20px;
+    color: #837E9F;
+}
+
+.my-onixs p {
+    margin-top: 20px;
+}
